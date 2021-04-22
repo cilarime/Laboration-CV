@@ -1,0 +1,229 @@
+/*Nedanför ligger mitt CV*/
+.grid-container{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-auto-rows: minmax(100px,auto);
+}
+.box1{
+background-color: #191919;
+}
+.box2{
+    background-color: #d8d8d8;
+}
+img{
+    height: 300px;
+    width: 300px;
+    filter: grayscale(0.8);
+    border: #d8d8d8 solid 3px;
+    margin-top: 50px;
+    margin-left: 220px;
+}
+h1{
+    color: #d8d8d8;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-variant: bold;
+    text-align: center;
+}
+h4{
+    color: #d8d8d8;
+    opacity: 0.7;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+}
+.box1 h5{
+    color: #d8d8d8;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 17px;
+    text-align: center;
+}
+.profile-content{
+    height: 325px;
+    width: 325px;
+    margin-left: 220px;
+    grid-auto-rows: minmax(100px,auto);
+}
+p{
+    color: #d8d8d8;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    text-align: justify;
+}
+.contact{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.box1 h3{
+    margin-top: 100px;
+    color: #d8d8d8;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 220px;
+    text-transform: uppercase;
+}
+.contact-left{
+    margin-left: 220px;
+    opacity: 0.8;
+}
+.contact-right p{
+    opacity: 0.8;
+    align-items: center;
+}
+.box2 h1{
+    color: #191919;
+    text-align: left;
+    font-size: 30px;
+    margin-left: 165px;
+    text-transform: uppercase;
+    margin-top: 40px;
+    font-weight: lighter;
+    padding: 0;
+}
+hr{
+    width: 800px;
+    background-color: #191919;
+    height: 3px;
+    border: 0;
+}
+.content{
+    margin-top: 40px;
+}
+.content h3{
+    color: #191919;
+    margin-top: 0;
+    margin-left: 165px;
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+.content h4{
+    color: #191919;
+    text-transform: none;
+    text-align: left;
+    margin-left: 165px;
+    font-size: 14px;
+}
+.content p{
+    color: #191919;
+    text-align: left;
+    margin-left: 165px;
+    font-size: 13px;
+}
+.skills-content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    border: #191919;
+}
+.skills-content p{
+    color: #191919;
+    text-align: left;
+    margin-left: 165px;
+    font-size: 15px;
+}
+.dot{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #191919;
+    display: inline;
+    margin-top: 11px;
+}
+.dot-2{
+    height: 19px;
+    width: 19px;
+    background-color: #d8d8d8;
+    border-radius: 50%;
+    display: inline-block;
+    border: 0.5 solid #191919;
+    margin-top: 11px;
+}
+.skills-3 p{
+    margin-left: 0;
+}
+
+.language-content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    border: #191919;
+}
+.language-content p{
+    color: #191919;
+    text-align: left;
+    margin-left: 165px;
+    font-size: 15px;
+}
+
+/* nedanför ligger min footer*/
+footer{
+    background-color: #191919;
+    height: auto;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 1px;
+    color: #d8d8d8;
+    }
+    .footer-content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        height: 190px;
+    }
+    .footer-content h3{
+        font-size: 1.8rem;
+        font-weight: 400;
+        text-transform: capitalize;
+        line-height: 3rem;
+    }
+    .footer-content p{
+        max-width: 500px;
+        margin: 10px auto;
+        line-height: 28px;
+        font-size: 14px;
+    }
+    .socials{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 1rem 0 3rem 0;
+    }
+    .socials li{
+        margin: 0 10px;
+    }
+    .socials a{
+        text-decoration: none;
+        color: #d8d8d8;
+    }
+    .socials a i{
+        font-size: 1.1rem;
+        transition: color .4s ease;
+    }
+    .socials a:hover i{
+        color: #610000;
+    }
+    .footer-bottom{
+        background: #191919;
+        padding: 20px 0;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-bottom p{
+        font-size: 14px;
+        word-spacing: 2px;
+        text-transform: capitalize;
+    }
+    .footer-bottom span{
+        text-transform: uppercase;
+        opacity: .4;
+        font-weight: 200;
+    }
+    @media only screen and (max-width: 768px) {
+        width: 100%;
+    }
